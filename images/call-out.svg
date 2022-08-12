@@ -1,0 +1,19 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path transform="rotate(-0.0645472 22.6499 6.1002)" stroke="#000" id="svg_3" d="m21.91687,8.96004l2.55659,-1.76637l-4.94305,0l-4.94304,0l0,-1.09347l0,-1.09347l4.88633,0c2.68748,0 4.88633,-0.05542 4.88633,-0.12316c0,-0.06774 -1.06988,-0.8626 -2.3775,-1.76637l-2.37751,-1.64321l2.19754,0l2.19754,0l3.35614,2.31532l3.35613,2.31532l-3.36257,2.31089l-3.36257,2.31089l-2.31348,0l-2.31349,0l2.5566,-1.76637l0,0z" fill="#000000"/>
+  <line id="svg_4" y2="27.125" x2="20.5625" y1="9.875" x1="11.25" stroke="#000" fill="none"/>
+  <line stroke="#000" id="svg_5" y2="13.9375" x2="2.5" y1="10.0625" x1="11.625" fill="none"/>
+  <line stroke="#000" id="svg_6" y2="30.3125" x2="11.625" y1="26.4375" x1="20.75" fill="none"/>
+  <line id="svg_7" y2="30.6875" x2="11.875" y1="13.4375" x1="2.5625" stroke="#000" fill="none"/>
+  <rect transform="rotate(-27.0127 15.3125 22.0625)" stroke="#000" id="svg_8" height="0.625" width="0.25" y="21.75" x="15.1875" fill="none"/>
+  <rect transform="rotate(-27.0127 13.375 23)" stroke="#000" id="svg_10" height="0.625" width="0.25" y="22.6875" x="13.25" fill="none"/>
+  <rect transform="rotate(-27.0127 11.25 24)" stroke="#000" id="svg_11" height="0.625" width="0.25" y="23.6875" x="11.125" fill="none"/>
+  <rect transform="rotate(-27.0127 11.1875 14.6875)" stroke="#000" id="svg_13" height="0.625" width="0.25" y="14.375" x="11.0625" fill="none"/>
+  <rect transform="rotate(-27.0127 9.25 15.625)" stroke="#000" id="svg_14" height="0.625" width="0.25" y="15.3125" x="9.125" fill="none"/>
+  <rect transform="rotate(-27.0127 7.125 16.625)" stroke="#000" id="svg_15" height="0.625" width="0.25" y="16.3125" x="7" fill="none"/>
+  <rect transform="rotate(-27.0127 16.6875 25)" stroke="#000" id="svg_16" height="0.625" width="0.25" y="24.6875" x="16.5625" fill="none"/>
+  <rect transform="rotate(-27.0127 14.75 25.9375)" stroke="#000" id="svg_17" height="0.625" width="0.25" y="25.625" x="14.625" fill="none"/>
+  <rect transform="rotate(-27.0127 12.625 26.9375)" stroke="#000" id="svg_18" height="0.625" width="0.25" y="26.625" x="12.5" fill="none"/>
+ </g>
+</svg>

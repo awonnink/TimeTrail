@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<title>DMS trail</title>
+		<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./trail/trail.css" /> 
+				<style>
+
+		</style>
+	</head>
+	<body>
+<div id="main">
+
+</div>
+	<script>
+		var trailHandler;
+		function initiateApp(){
+				trailHandler.initiateScreen();
+			}
+	</script>
+	<script type="module">
+		import { TrailHandler } from './trail/trail.js';
+		trailHandler = new TrailHandler();
+		initiateApp();
+	</script>	</body>
+</html>

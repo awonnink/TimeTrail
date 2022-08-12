@@ -1,0 +1,526 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: black;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color: rgb(105, 105, 105);
+}
+a:visited{
+	text-decoration: none;
+
+}
+/* Works on Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #91919140 #0014ff26;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+	width: 6px;
+    height: 6px;
+  }
+  
+  *::-webkit-scrollbar-track {
+	background: #0014ff26;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	background-color: #91919140;
+	border-radius: 20px;
+	border: 3px solid #0014ff26;
+  }
+.frameDivClass{
+	position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  resize: both;
+  overflow: hidden;
+  border-radius: 10px;
+  min-height: 50px;
+}
+.frameDivTitleClass{
+ cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+  font-size: 6pt;
+  
+}
+.frameDivTitlePresentBtnClass{
+	position: absolute;
+	display: inline-block;
+	width: 15px;
+	height: 10px;
+    left: 0px;
+	background-color: blueviolet;
+	cursor: pointer;
+	border-top-left-radius: 10px;
+}
+.frameDivTitleRightMenuClass{
+	position: absolute;
+	display: inline-block;
+	right: 1px;	
+}
+
+.frameDivTitlePinnBtnClass{
+	display: inline-block;
+	width: 15px;
+	height: 10px;
+	background-color: rgb(80, 140, 110);
+	cursor: pointer;
+}
+.frameDivTitlePinnBtnClass:hover{
+
+	background-color: rgb(40, 64, 52);
+
+}
+
+.frameDivTitlePinnBtnClass.pinned{
+	background-color: rgb(54, 52, 20);
+}
+.frameDivTitleCloseBtnClass{
+	display: inline-block;
+	width: 15px;
+	height: 10px;
+	background-color: rgb(198, 210, 217);
+	cursor: pointer;
+	color: black;
+	background-image: url('../images/close.svg');
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.frameDivTitleCloseBtnClass:hover{
+	background-color: rgb(102, 132, 149);
+}
+
+.frameContenContainerClass{
+	width: 100%;
+	height: 98%;
+	cursor: grabbing;
+	overflow: auto;
+}
+.frameClass{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.screenPartClass{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	display: block;
+	z-index: -4;
+	background-color: rgb(29 30 42);
+	border-radius: 10pt;
+}
+.trailMainClass{
+	background-color: black;
+}
+.trailcardclass{
+
+	position: absolute;
+	width: 200px;
+	min-height: 50px;
+	background-color: white;
+	padding: 5px;
+	border:solid 1pt black;
+	border-radius: 5px;
+	box-shadow: 10px 10px#c5ccd3ba;
+
+}
+.trailcardHeader{
+	font-size: smaller;
+}
+.trailcardContentClass{
+	cursor: pointer;
+	overflow: auto;
+}
+.trailcardContentClass:hover{
+	color: chocolate;
+}
+.trailpoint{
+	position: absolute;
+	z-index: -20;
+	color:#8994c7cf;
+}
+
+.trailcardclass .trailcardtooltip {
+	visibility: hidden;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  .trailcardclass .trailcardtooltip::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  .trailcardclass:hover .trailcardtooltip {
+	visibility: visible;
+	opacity: 1;
+  }
+
+.trailcardEventItemClass{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: aqua;
+}
+
+
+
+
+
+.trailMenu{
+	position: absolute;
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+    padding: 5px;
+    top: 10px;
+    margin-left: 200px;
+	color: white;
+}
+.trailRadio{
+	display: block;
+}
+.trailRadiolbl{
+	display: inline-block;
+}
+.todaycard{
+	background-color: rgb(205 215 123);
+
+}
+.future{
+	background-color: silver;
+}
+.cardicon{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left:-40px;
+}
+.website{
+	background: url('../images/website.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+.mail{
+	background: url('../images/mail-in.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+.mail-out{
+	background: url('../images/mail-out.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+.matter{
+	background: url('../images/matter.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+	.info{
+	background: url('../images/information.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+	.call-in{
+	background: url('./images/call-in.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+	.letter, .document{
+	background: url('../images/letter-out.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+	.contract{
+	background: url('../images/contract.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+	.visit{
+	background: url('../images/appointment.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+.meeting{
+	background: url('../images/meeting.svg') no-repeat right;
+	background-size: 32px 32px;
+}
+.caseClass{
+	display: block;
+	font-size: large;
+	font-weight: bold;
+	cursor: pointer;
+}
+.caseOwnerClass{
+	display: block;
+
+}
+.caseSearchFieldClass{
+	display: none;
+    width: 470px;
+    height: 46px;
+    margin: 5px;
+    position: absolute;
+    left: 0;
+    top: 10;
+    top: 0px;
+    margin: 10px;
+	background-color: transparent;
+	;
+}
+.caseSearchItemsClass{
+	position: fixed;
+    background-color: white;
+    /* left: 50px; */
+    z-index: 100;
+    margin-left: 30px;
+    text-align: left;
+	max-height: 500px;
+    overflow-y: auto;
+	margin-top: 50px;
+	border-radius: 10px;
+	max-width: 600px;
+}
+.caseSearchItemClass{
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: solid 1pt silver;
+	white-space: nowrap;
+	padding: 4px;
+
+}
+.caseSearchItemClass:hover{
+	background-color: azure;
+}
+mark{
+	color: #7ca0bd;
+	background-color: transparent;
+}
+.highlight{
+	border: red 4pt solid!important;
+}
+
+.noResults{
+	color: red;
+}
+
+.busy {
+
+	background: linear-gradient(0deg, #000, #272727);
+  }
+  
+  .busy:before, .busy:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #ebecf1ed, #9ebdc9fa,#ebecf1ed, #9ebdc9fa,#ebecf1ed, #9ebdc9fa,#ebecf1ed, #9ebdc9fa  );
+	background-size: 900%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+	0% {
+	  background-position: 0 0;
+	}
+	50% {
+	  background-position: 400% 0;
+	}
+	100% {
+	  background-position: 0 0;
+	}
+  }
+  
+  .busy:after {
+	filter: blur(50px);
+  }
+  .stickerClass{
+	display: inline-block;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	font-family: cursive;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border: solid 1pt silver;
+	border-radius: 10px;
+	min-height: 92%;
+	width: 90%;
+
+  }
+  .stickerClass span{
+	display: inline-block;
+	vertical-align: middle;
+  }
+  .stickerImageContentClass{
+	width: 100%;
+  }
+  .clipboardClass{
+	background-color: #2196F3;
+	width: 100%;
+	height: 100%;
+  }
+  .sliderBarClass{
+	text-align: center;
+  }
+  .searchFieldPanelClass{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	text-align: left;
+  }
+.searchFieldClass{
+	display: inline-block;
+	height: 100px;
+	width: 80%;
+	overflow-y: scroll;
+	-webkit-appearance: textarea;
+	border: solid 1pt silver;
+	cursor: auto;
+	padding: 5px;
+	text-align: left;
+	background-color: white;
+	border-radius: 5px;
+}
+.searchPasteButtonsClass{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #2196F3;;
+	border: solid 1pt silver;
+	border-radius: 5px;
+	margin-right: 2px;
+	vertical-align: top;
+}
+.searchPasteButtonsClass:hover{
+	border: solid 1pt black;
+}
+  .searchResultsClass{
+	text-align: left;
+	height: 70%;
+	overflow-y: scroll;
+  }
+  .docurl{
+	display: inline;
+	color: black;
+	color: #0366bd;
+    font-weight: bold;
+    cursor: pointer;
+	font-size: small;
+}
+
+  .simtext, #msgtext {
+	border: solid;
+	border-color: lightgray;
+	border-width: 1pt;
+	border-radius: 5px;
+	width: 95%;
+	display: block;
+	margin-bottom: 3px;
+	overflow-y: auto;
+	max-height: 300px;
+	padding: 5px;
+}
+#msgtext {
+	max-height: 200px;
+	background-color: white;
+	display:none;
+}
+.probability {
+	float: right;
+	width: 16px;
+	height: 16px;
+	background-color: white;
+	border-radius: 3px;
+	margin: 3px;
+}
+
+.simtext {
+	color: white;
+}
+.datestring {
+	color: #d1d3d3;
+	font-size: xx-small;
+}
+.context {
+	color: #8b95ab;
+	font-size: small;
+	cursor: auto;
+}
+.context:hover {
+	color: rgb(6, 6, 6);
+}
+.foundtext {
+	color: #050505;
+	font-size: small;
+	cursor: auto;
+}
+.searchResultContainer{
+	width: 100%;
+	max-height: 84vh;
+	overflow-y: auto;
+	min-height: 30vh
+}
+
+.icon {
+	background-image: url(https://res.cdn.office.net/owamail/20220408004.16/scripts/../resources/images/fileType_sprite-434b710b35a99022..png);
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: top;
+}
+
+.icon_common {
+	background-position: -42px -488px;
+}
+
+.icon_doc {
+	background-position: -501px -488px;
+}
+
+.icon_pdf {
+	background-position: -521px -306px;
+}
+
+.icon_zip {
+	background-position: -102px -509px;
+}
+
+.icon_txt {
+	background-position: -521px -119px;
+}
+
+.icon_xls {
+	background-position: -68px -509px;
+}
+
+.icon_ppt {
+	background-position: -521px -374px;
+}
+
+.icon_msg {
+	background-position: -521px -18px;
+}
