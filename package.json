@@ -1,0 +1,19 @@
+{
+  "name": "timetrail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awonnink/TimeTrail.git"
+  },
+  "author": "AJWonnink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awonnink/TimeTrail/issues"
+  },
+  "homepage": "https://github.com/awonnink/TimeTrail#readme"
+}
